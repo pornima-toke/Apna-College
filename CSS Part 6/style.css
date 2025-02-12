@@ -1,0 +1,153 @@
+/* .container {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(15, 16, 16);
+    display: grid;
+    /* grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-template-columns: 200px 200px 200px; */
+    /* grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap:10px ;
+    column-gap: 10px;
+}
+
+.item {
+   width: 100px;
+
+   height: 50px;
+   background-color: greenyellow;
+   border: 2px solid black;
+   text-align: center;
+} */ 
+
+/* .box {
+    height: 100px;
+    width: 300px;
+    background-color: pink; */
+
+    /* animation-name:fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+    /* Sort hand */
+    /* animation: widthAnimatte 3s ease-in 0 infinite normal;
+} */
+
+/* @keyframes fontAnimation {
+    from {
+       font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+} */
+
+/* h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (width:400px) {
+    h1 {
+        background-color: red;
+    }
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+} */
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.container div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.header {
+    grid-column: 1 / span 12;
+}
+
+.sidebar {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 10;
+}
+
+.navigation {
+    grid-column: 4 / span 6;
+}
+
+.ads {
+    grid-column: 10 / span 3;
+    grid-row: 2 / span 10;
+}
+
+.main {
+    grid-row: 4 / span 6;
+    grid-row: 3 / span 9;
+}
+
+.footer {
+    grid-column: 1 / span 12;
+}
+
+/* HTML Code will remain the same as answer 1. */
+
+@media (max-width: 720px) {
+    .header {
+        grid-column: 1 / span 12;
+    }
+    .navigation {
+        grid-column: 1 / span 12;
+        grid-row: 2;
+    }
+
+    .sidebar {
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 9;
+    }
+
+    .main {
+        grid-column: 4 / span 9;
+        grid-row: 3 / span 9;
+    }
+
+    .ads {
+        grid-column: 1 / span 3;
+        grid-row: 12;
+    }
+
+    .footer {
+        grid-column: 4 / span 9;
+        grid-row: 12;
+    }
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

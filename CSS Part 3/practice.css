@@ -1,0 +1,102 @@
+/* #outer {
+height: 200px;
+width: 70px;
+border: 2px solid black;
+}
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+} */
+
+
+/* h1 {
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+} */
+
+/* #outer {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 10px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em;
+    padding: 1em;
+} */
+
+
+/* Snowball effect */
+
+/* section {
+    font-size: 15px;
+}
+div {
+    font-size: 0.5rem;
+} */
+
+/* Qs1 */
+#box {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    /*  full form 
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    |shortn in down */
+
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    /* Make this div in the shape of circle */
+    border-radius: 50%;
+    /* Place all the 3 divs in a single line */
+    display: inline-block;
+
+}
+
+/* QS3 */
+/* Li (list items) have their display property set to “list-item” by default 
+which makes them a bulleted list item.
+When this property is reset by you to “inline”,then the bullet points also disappear.
+In a way,we override the default settings with our CSS. */
+li {
+    display: inline;
+}

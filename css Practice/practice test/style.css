@@ -1,0 +1,46 @@
+/* PART A (Selectors) */
+/* Qs 1. Give the h1 header a unique id -"mainTopic"
+ & set its color tbodyblue using the id selector */
+
+ * {
+    text-align: center;
+ }
+
+ #mainTopic {
+    color: blue;
+ }
+
+ h1,
+ h3,
+ h5 {
+    font-family: georgia ;
+ }
+
+ .content {
+    background-color: cornflowerblue;
+    color: white;
+ }
+
+ div button {
+    background-color: purple;
+    color: azure;
+ }
+
+ /* Part B (Pseduo class & elements) */
+
+ button:hover {
+    background-color: yellow;
+    color: blue;
+ }
+
+ p:nth-of-type(2n+1) {
+    color: yellow;
+ }
+  
+ h1::first-letter {
+    color: red;
+ }
+
+ #yes:checked + label {
+    color: darkgreen;
+ }
