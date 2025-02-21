@@ -6,5 +6,13 @@
 .main_box {
    background: url("photo.jpg");
    height: 100vh;
-   background-color: cover;  
+   background-size: cover;  
+}
+
+.btn_one {
+    color: white;
+    font-size: 30px;
+    font: weight 700; 
+    position: absolute;
+    left: 16px;
 }
